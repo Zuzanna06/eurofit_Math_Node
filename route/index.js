@@ -1,3 +1,3 @@
 const abonnementPath = require('./abonnement');
-
-module.exports = {abonnementPath};
+const membrePath = require('./membre');
+module.exports = {abonnementPath, membrePath};
